@@ -1,0 +1,26 @@
+.input-block {
+    margin-top: 15px;
+}
+
+.input {
+    width: 600px;
+    border: 2px solid #000000;
+    font-family: "Open Sans";
+    padding: 15px 0 15px 15px;
+    margin-left: 100px;
+}
+
+.button-block {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.btn {
+    font-family: "Nunito Sans", sans-serif;
+    padding: 14px 46px;
+    background-color: #232222;
+    border-radius: 224px;
+    color: white;
+    cursor: pointer;
+}
