@@ -18,7 +18,7 @@ const TodoInput = () => {
         })
         setNewTodo('')
     }
-
+;
     return (
         <div className="input-block">
             <input type="text" className='input' onChange={handleChange} value={newTodo} onKeyDown={(event) => {if (event.key === 'Enter') handleClick()}}/>
