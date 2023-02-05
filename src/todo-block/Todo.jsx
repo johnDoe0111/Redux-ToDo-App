@@ -22,7 +22,7 @@ const Todo = () => {
     return (
       <>
         {todos.map((todo) => (
-          <div className="todo">
+          <div className="todo" key={todo.id}>
             <p className="todo-value">{todo.label}</p>
             <div className="icon-block">
               <FontAwesomeIcon
